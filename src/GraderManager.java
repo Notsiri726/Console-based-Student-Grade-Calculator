@@ -2,8 +2,8 @@ import java.sql.*;
 import java.util.Scanner;
 
 public class GraderManager {
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/your_database";
-    private static final String DB_USER = "use_your_username";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/your_database"; // Change this!
+    private static final String DB_USER = "use_your_username"; // Change this!
     private static final String DB_PASSWORD = "use_your_password";  // Change this!
 
     private Connection connection;
